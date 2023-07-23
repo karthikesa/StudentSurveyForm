@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script type="text/javascript" src="index3.js"  defer></script>
+    
+    <link rel="stylesheet" href="index2.css">
+     <title>SURVEY FORM</title>
+    
+ </head>
+ <body>
+   
+     <div class="container">
+         <form  id="form" method="post" action="index5.php" enctype="multipart/form-data">
+       <h1>SURVEY FORM</h1>
+       <div class="inputgroup">
+         <lable for="username">NAME*</lable>
+         <input type="text" id="username" placeholder="Enter your name" name="username">
+         <div class="error"></div>
+       </div>
+       <div class="inputgroup">
+         <lable for="dob">DATE OF BIRTH</lable>
+         <input type="date" id="dob" name="dob">
+         <div class="error"></div>
+       </div>
+       
+       <div class="inputgroup">
+         <lable for="number">MOBILE</lable>
+         <input type="number" id="phone" placeholder="(845)555-1212" name="phone">
+         <div class="error"></div>
+       </div>
+       <div class="inputgroup">
+         <lable for="email">EMAIL</lable>
+         <input type="text" id="email" placeholder="E-mail Address" name="email">
+         <div class="error"></div>
+       </div>
+       <div class="inputgroup">
+         <lable for="password">ADDRESS</lable>
+         <input type="text" id="address" placeholder="Address" name="address">
+         <div class="error"></div>
+       </div>
+       <h1>ENTER YOUR MARKS</h1>
+       <div class="inputgroup">
+        <lable for="mark1">PHYSICS</lable>
+        <input type="number" id="mark1" placeholder="Enter your Mark" name="mark1">
+        <div class="error"></div>
+      </div>
+      <div class="inputgroup">
+        <lable for="mark2">CHEMESTRY</lable>
+        <input type="number" id="mark2" placeholder="Enter your Mark"  name="mark2">
+        <div class="error"></div>
+      </div>
+      <div class="inputgroup">
+        <lable for="mark3">MATHS</lable>
+        <input type="number" id="mark3" placeholder="Enter your Mark"  name="mark3">
+        <div class="error"></div>
+      </div>
+      <div class="inputgroup">
+        <lable for="mark4">MATHS4</lable>
+        <input type="file" id="file1"  accept=".jpg , .jpeg, .png" value="" name="file1">
+        <div class="error"></div>
+      </div>
+    
+       <div class="inputgroup">
+       </div>
+       <button type="submit" id="submits" name="submit">submit</button>
+         </form>
+     </div>
+    
+   
+ </body>
+</html>
